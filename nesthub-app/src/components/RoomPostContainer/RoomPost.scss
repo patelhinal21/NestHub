@@ -1,0 +1,27 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-class{
+    // padding: 10px;
+}
+
+.view-button, .update-button, .delete-button{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(45deg, rgb(25, 171, 184), rgb(7, 102, 124));
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 6px;
+
+}
+
+.update-button:hover, .view-button:hover, .delete-button:hover {
+    background: linear-gradient(260deg, rgb(7, 102, 124), rgb(25, 171, 184));
+}

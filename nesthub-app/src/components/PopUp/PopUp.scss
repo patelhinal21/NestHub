@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+// profile photo container
+.profile-card-container {
+    margin: 20px;
+    background-color: #ffffff;
+    width: 400px;
+    min-height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+//profile photo image styling
+.profile-card-container .profile-photo-container img {
+    margin-top: 20px;
+    padding: 5px;
+    border: solid 3px rgb(213, 213, 213);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+//text in popup styling
+.profile-card-container .text-container ul{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 3px rgb(213, 213, 213);
+    font-family: 'Readex Pro', sans-serif;
+    color:#228693;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+//style to show list of all the user details
+.profile-card-container .text-container ul li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+}

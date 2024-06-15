@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.card-container {
+    margin: 20px;
+    background-color: #ffffff;
+    width: 650px;
+    min-height: 900px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+.card-container .photo-container img {
+    margin-top: 20px;
+    border: solid 3px rgb(213, 213, 213);
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.card-container .text-container ul{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 3px rgb(213, 213, 213);
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.card-container .roomTitle{
+    margin: 20px;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#228693;
+    border: solid 3px rgb(213, 213, 213);
+    border-radius: 10px;
+}
+
+.card-container .text-container ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    text-transform: uppercase;
+}

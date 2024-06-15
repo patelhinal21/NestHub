@@ -1,0 +1,83 @@
+//Main Dashbard style
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+
+}
+//swipe card positionong
+.swipe {
+  position: absolute;
+}
+
+
+// styles to hold swipe card
+.dashboard .profile-container {
+
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard .card-container {
+  width: 400px;
+  min-height: 600px;
+
+}
+//styles for swipe card
+.dashboard .card {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.30);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+//style to store card content
+.cardContent {
+  width: 100%;
+  height: 100%;
+}
+
+
+//style to store card details
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: rgb(5, 5, 5);
+}
+ //style for swipe info
+.dashboard .swipeinfo {
+  position: absolute;
+  bottom: -10px;
+  left: 915px;
+  padding: 10px;
+}
+
+//style for buttons used
+.primary-button {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 15px;
+  background: linear-gradient(45deg, rgb(25, 171, 184), rgb(7, 102, 124));
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  margin: 10px;
+  height: fit-content
+}
+
+//syle for icons on the dashbaord
+.icons {
+  display: flex;
+
+  a,
+  button {
+    margin: 0.25em;
+  }
+}
